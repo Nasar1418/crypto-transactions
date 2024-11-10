@@ -1,0 +1,11 @@
+export { default as Navbar } from "./Navbar";
+export { default as Footer } from "./Footer";
+export { default as Exchanges } from "./Exchanges";
+export { default as Coins } from "./Coins";
+export { default as CoinDetails } from "./CoinDetails";
+export { default as Home } from "./Home";
+export { default as Loader } from "./Loader";
+export { default as LoaderB } from "./LoaderB";
+export { default as Transactions } from "./Transactions";
+export { default as Services } from "./Services";
+export { default as Welcome } from "./Welcome";
