@@ -56,18 +56,7 @@ const TransactionsCard = ({
             </p>
           </a>
           <p className="text-white text-base">Amount: {amount} ETH</p>
-          <a
-            href={`https://sepolia.etherscan.io/address/${addressFrom}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className="text-white text-base">
-              From:{" "}
-              <span className="text-blue-400">
-                {shortenAddress(addressFrom)}
-              </span>
-            </p>
-          </a>
+          
           {/* Display the label based on whether the transaction is "Received" or "Sent" */}
           <p
             className={`text-base font-bold ${
