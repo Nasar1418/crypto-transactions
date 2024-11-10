@@ -17,7 +17,7 @@ const createEthereumContract = () => {
     contractABI,
     signer
   );
-  console.log({ provider, signer, transactionContract });
+  // console.log({ provider, signer, transactionContract });
   return transactionContract;
 };
 
