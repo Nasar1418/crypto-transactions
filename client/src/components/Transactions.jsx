@@ -98,7 +98,7 @@ const TransactionsCard = ({
 
 const Transactions = () => {
   const { transactions, currentAccount } = useContext(TransactionContext);
-  const allTransactions = [...dummyData, ...transactions].reverse();
+  const allTransactions = [...transactions].reverse();
   const [visibleCount, setVisibleCount] = useState(6);
 
   const handleShowMore = () => {
