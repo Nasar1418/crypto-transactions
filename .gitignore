@@ -21,6 +21,7 @@ lerna-debug.log*
 /client/dist
 /client/dist-ssr
 /client/*.local
+/client/.env
 
 # Editor directories and files
 .vscode/*
