@@ -16,8 +16,8 @@ const TransactionsCard = ({
   const gifUrl = useFetch({ keyword });
   // Determine if this is a "Sent" or "Received" transaction
   const { currentAccount } = useContext(TransactionContext);
-  console.log(currentAccount);
-  console.log(addressFrom);
+  // console.log(currentAccount);
+  // console.log(addressFrom);
   const isReceived = addressFrom.toLowerCase() !== currentAccount.toLowerCase();
 
   console.log(isReceived);
@@ -112,7 +112,7 @@ const Transactions = () => {
         )}
         <div className="flex flex-wrap justify-center items-center mt-10">
           {allTransactions.slice(0, visibleCount).map((transaction, i) => {
-            console.log(transaction); // Log each transaction
+            // console.log(transaction); // Log each transaction
             return <TransactionsCard key={i} {...transaction} />;
           })}
         </div>
